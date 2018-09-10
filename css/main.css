@@ -1,0 +1,150 @@
+/*************** Basic Stylings ********************/
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/*Capitalize appropriate text*/
+.capitalize {
+    text-transform: capitalize;
+}
+
+/*Matching the title to the mockup*/
+#employee_directory h1 {
+    font-size: large;
+    font-weight: 600;
+    color: darkslategray;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+#search {
+    float: right;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+@media (min-width: 992px) {
+    #search {
+        margin-right: 13rem;
+    }
+}
+
+#employeeList {
+    margin: 0px auto;
+}
+
+#list {
+    list-style-type: none;
+    margin: 1rem auto;
+}
+/* Display the employee items next to each other - when there is enough space*/
+.employee {
+    display: inline-block;
+    border-radius: 8px;
+    border: solid lightgrey 2px;
+    margin: 1rem 2rem;
+    height: 10rem;
+    width: 30rem;
+    padding: .5rem;
+    padding-top: .60rem;
+    padding-bottom: .60rem;
+    background-color: #87CEFA;
+}
+
+
+/* align list content to match the mockup*/
+.images {
+    float: left;
+}
+
+.images img{
+    border-radius: 100%;
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+.content {
+    float: left;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.content h3 {
+    align-items: left;
+    text-align: left;
+    color: black;
+}
+
+.content p {
+    color: grey;
+}
+
+.employee:hover {
+    box-shadow: 5px 5px 10px #888888
+}
+
+/********************* MODAL **********************/
+
+.modal {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.60);
+}
+
+.modal-content {
+    max-width: 350px;
+    width: 100%;
+    padding: 2rem;
+    position: absolute;
+    top: 30%;
+    left: 35.5%;
+    border-radius: 8px;
+    border: solid #dfdfdf 2px;
+    background: #B0C4DE;
+    text-align: center;
+    clear: both;
+}
+
+.modal-content img {
+    border-radius: 100%;
+}
+
+.modal-content p {
+    color: grey;
+}
+
+.line-break {
+    border: solid lightgrey .75px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.modal-close {
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.arrows {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+#prev {
+    float: left;
+    margin-top: 50%;
+}
+
+#next{
+    float: right;
+    margin-top: 50%;
+}
