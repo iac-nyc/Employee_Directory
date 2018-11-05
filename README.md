@@ -20,9 +20,5 @@
         a) Display the users in a grid or table
         b) Add a hover state to the rows of the user table.
         c) Make sure there’s a way to close the modal window
-```
-## Exceeds Expectations Requirements:
-```
-    1) Add a way to filter the directory by name or username. To do this, you’ll need to request a random user nationality that will only return data in the English alphabet.
-       Note: you don't have to rely on the API to return search results. You'll need to write functionality that filters results once they already on the page.
-    2) Add a way to move back and forth between employee detail windows when the modal window is open.
+  ```
+  #### https://iac-nyc.github.io/Employee_Directory 
