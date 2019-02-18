@@ -7,7 +7,7 @@
 }
 
 p > img {
-     border: 1px solid #7B68EE;
+     border: 1px solid #00BFFF;
      padding: 5px;
      width: 150px;
 }
@@ -24,6 +24,14 @@ p > #awesome:hover {
          opacity:.9;
          transition: 0.3s;
          }
+header {
+      margin-top: 10px;
+}
+
+button {
+    border-radius: 5px;
+}
+
 
 
 
