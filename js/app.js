@@ -53,7 +53,7 @@ $(document).ready(() => {
 
     //call a request to receive 12 fake employees for the mockup
     $.ajax({
-      url: 'https://randomuser.me/api/?nat=us&results=12',
+      url: 'https://randomuser.me/api/?nat=us&results=20',
       dataType: 'json',
       success: function(data) {
           //interate through the data received to build out the page

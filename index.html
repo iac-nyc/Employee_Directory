@@ -12,56 +12,61 @@
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-    	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    	<link rel="stylesheet" href="css/normalize.css">
-    	<link rel="stylesheet" href="css/main.css">
-    
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">    
 </head>
     <body>
-     <header>
-         <p class="ctr" id="me">          
-                <img  src="iac.png" alt="Iftekhar's profile picture" class="icon">
-              <br>Iftekhar<br>
-          </p> 
-          <p class="ctr" id="awesome">
-                   <a href="https://github.com/iac-nyc" target="_blank" title="My GitHub Profile">
-                     <i class="fa fa-github-square" style="font-size:32px; color:#00BFFF"></i>  
-                  </a>
+     <header class="ctr">
+         <div>       
+           <img  src="iac.png" alt="Iftekhar's profile picture" class="icon">                    
+           <h5 id="me">Iftekhar</h5>
+        </div>    
+        <nav>
+          <ul>
+              <li>
+                <a href="https://github.com/iac-nyc" target="_blank" title="My GitHub Profile">
+                 <i class="fa fa-github-square" style="font-size:32px; color:#00BFFF"></i>  
+                </a>
+              </li>
+              <li>
                   <a href="https://iac-nyc.github.io/badgeView/" target="_blank" title="Badge View">
-                    <i class="fa  fa-globe" style="font-size:32px; color:#00BFFF"></i>
-                   </a>
-                   <a href="https://www.ilovechittagong.com" target="_blank" title="i love chittagong">
-                      <i class="fa fa-heart-o" style="font-size:30px; color:#00BFFF"></i>
-                  </a>                 
-                 <a href="https://iac-nyc.github.io/courseView/" target="_blank" title="Course View">
-                     <i class="fa fa-snowflake-o" style="font-size:28px; color:#00BFFF"></i>
-               </a>
+                      <i class="fa  fa-globe" style="font-size:32px; color:#00BFFF"></i>
+                  </a>
+             </li>
+            <li>
+                <a href="https://www.ilovechittagong.com" target="_blank" title="i love chittagong">
+                    <i class="fa fa-heart-o" style="font-size:30px; color:#00BFFF"></i>
+                </a>  
+            </li>
+            <li>
+                <a href="https://iac-nyc.github.io/courseView/" target="_blank" title="Course View">
+                    <i class="fa fa-snowflake-o" style="font-size:28px; color:#00BFFF"></i>
+                </a>
+            </li>
+            <li>
                 <a href="https://iac-nyc.github.io/certificatesView/" target="_blank" title="Certificates View" >
-                       <i class="fa fa-certificate" style="font-size:32px; color:#00BFFF"></i>
-                   </a>
-              
-                                  
-            </p>
-        
-    </header>
-    	<div id="employee_directory">
+                    <i class="fa fa-certificate" style="font-size:32px; color:#00BFFF"></i>
+                </a>
+            </li>
+          </ul>
+      </nav>
+     </header>       
+        	<div id="employee_directory">
     	    <h1>EMPLOYEE DIRECTORY</h1>
     	    <div id="search">
     	        <input type="text" placeholder="Search">
     	        <button>Search</button>
     	   </div>
-    	    <div id="employee_list">
-    	        <ul id="list">
-    	        </ul>
-    	    </div>
-          <div>
-
-          <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Iftekhar A Chowdhury</p>
-          </div>
-
-    	</div>
+            <div id="employee_list">
+                <ul id="list">
+                </ul>
+            </div>            
+              <footer>
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Iftekhar A Chowdhury</p>
+              </footer>
+        </div>      
+         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+         <script src="js/app.js"></script>
     </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/app.js"></script>
 </html>
