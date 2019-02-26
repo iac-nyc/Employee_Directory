@@ -1,9 +1,12 @@
+###  https://iac-nyc.github.io/Employee_Directory
+
+
 ## Project by: Iftekhar A Chowdhury
-## Project Title: Use a Public API to Create an Employee Directory
-## Project Requirements:
+#### Project Title: Use a Public API to Create an Employee Directory
+##### Project Requirements:
 ```
     1) Get and display 12 random users from The Random User Generator API
-        a) Using photos and information that the API provides, you’ll display 12 users, along with some basic information:
+        a) Using photos and information that the API provides, you’ll display 20 users, along with some basic information:
             i)   Image
             ii)  First and Last Name
             iii) Email
@@ -21,4 +24,3 @@
         b) Add a hover state to the rows of the user table.
         c) Make sure there’s a way to close the modal window
   ```
-  #### https://iac-nyc.github.io/Employee_Directory 
